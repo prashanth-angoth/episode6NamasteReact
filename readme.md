@@ -1,0 +1,2 @@
+with the help of useState variables, whenever you update a variable, react will render the whole component.
+but because of the reconciliation algorithm and diff algorithm used in react it'll compare the changed DOM and the earlier dom whichever part of the dom effected with the changed variable that part only gets updated in the component
